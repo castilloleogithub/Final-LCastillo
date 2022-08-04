@@ -24,10 +24,10 @@
             ],
             "styles": [
               "src/styles.css",
-			  "node_module/bootstrap/dist/css/bootstrap.css"
+			  "Frontend/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-			  "node_module/bootstrap/dist/js/bootstrap.js"
+			  "Frontend/node_modules/bootstrap/dist/js/bootstrap.min.js"
 			]
           },
           "configurations": {
@@ -93,9 +93,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "Frontend/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "Frontend/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           }
         }
       }
