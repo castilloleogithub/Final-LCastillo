@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author Castillo Leonardo
  */
-public class IPersonaService {
+public interface IPersonaService {
     public List<Persona> getPersona(); 
     
     public void savePersona(Persona persona);

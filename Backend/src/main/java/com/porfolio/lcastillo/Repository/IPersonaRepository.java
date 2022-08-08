@@ -5,6 +5,7 @@
 package com.porfolio.lcastillo.Repository;
 
 import com.porfolio.lcastillo.Entity.Persona;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Repository;
  * @author Castillo Leonardo
  */
 @Repository
-public class IPersonaRepository extends JpaRepository<Persona, Long> {
+public interface IPersonaRepository extends JpaRepository<Persona, Long> {
     
     
     
